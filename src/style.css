@@ -6,7 +6,6 @@
 
 body {
   background-image: url("media/galaxy-background.jpg");
-  background: white;
 }
 
 @media (max-width: 576px) {
