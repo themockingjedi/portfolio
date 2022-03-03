@@ -142,7 +142,7 @@ p {
 div.intro {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: rgba(177, 242, 255, 0.616);
+  background-color: rgba(177, 242, 255, 0.405);
   margin-bottom: 50px;
   box-shadow: 0 0 10px 0 rgba(177, 242, 255);
 }
@@ -150,7 +150,7 @@ div.intro {
 div.intro-other {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: rgba(178, 150, 255, 0.616);
+  background-color: rgba(178, 150, 255, 0.405);
   margin-bottom: 50px;
   box-shadow: 0 0 10px 0 rgb(178, 150, 255);
 }
