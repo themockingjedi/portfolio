@@ -46,6 +46,10 @@ img {
   text-align: center;
 }
 
+.contact h2 {
+  color: var(--primary-color);
+}
+
 .blurb {
   padding: 20px;
   border-radius: 4px;
