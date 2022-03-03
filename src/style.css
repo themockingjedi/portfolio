@@ -7,28 +7,9 @@
 
 body {
   background-image: url("media/galaxy-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   width: auto;
-}
-
-@media (max-width: 900px) {
-  h1 {
-    font-size: 32px;
-    line-height: 2;
-    text-align: center;
-  }
-
-  h2 {
-    font-size: 27px;
-    text-align: center;
-  }
-
-  h3 {
-    text-align: center;
-  }
-
-  .blurb {
-    padding: 10px;
-  }
 }
 
 h1 {
@@ -44,13 +25,25 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 30px;
   color: aqua;
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+  color: darkorchid;
   text-align: center;
 }
 
 p {
   color: white;
+  text-align: center;
+}
+
+img {
+  display: block;
+  text-align: center;
 }
 
 .blurb {
@@ -61,6 +54,23 @@ p {
   text-align: center;
   box-shadow: 0 1px 10px lightslategrey;
   margin: 30px;
+}
+
+.blurb-desc {
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  box-shadow: 0 1px 10px lightslategrey;
+  margin: 20px 0;
+  display: block;
+}
+
+.blurb-desc h3,
+h4,
+p {
+  padding: 0;
 }
 
 .navigation-links {
@@ -133,6 +143,14 @@ div.intro {
   box-shadow: 0 0 10px 0 rgba(177, 242, 255);
 }
 
+div.intro-other {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgba(178, 150, 255, 0.616);
+  margin-bottom: 50px;
+  box-shadow: 0 0 10px 0 rgb(178, 150, 255);
+}
+
 a:hover.button {
   color: white;
 }
@@ -141,10 +159,51 @@ a:hover.button {
   margin-bottom: 50px;
 }
 
+.top-spacer {
+  margin-top: 101px;
+}
 .sections p {
   font-size: 20px;
 }
 
-img {
-  width: auto;
+@media (max-width: 900px) {
+  h1 {
+    font-size: 32px;
+    line-height: 2;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .blurb {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  h1 {
+    font-size: 32px;
+    line-height: 2;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .blurb {
+    padding: 10px;
+  }
 }
