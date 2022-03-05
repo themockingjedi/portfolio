@@ -183,6 +183,11 @@ a:hover.button {
 .top-spacer {
   margin-top: 101px;
 }
+
+.down-spacer {
+  margin-bottom: 157px;
+}
+
 .sections p {
   font-size: 20px;
 }
