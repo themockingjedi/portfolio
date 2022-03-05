@@ -47,6 +47,12 @@ img {
   text-align: center;
 }
 
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly !important;
+}
+
 .contact h2 {
   color: var(--primary-color);
 }
@@ -186,6 +192,14 @@ a:hover.button {
 
 .down-spacer {
   margin-bottom: 157px;
+}
+
+.left-spacer {
+  margin-left: 245px;
+}
+
+.slight-space {
+  margin-bottom: 30px;
 }
 
 .sections p {
