@@ -3,6 +3,7 @@
   --secondary-color: #f5f2fe;
   --tertiary-color: aqua;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --glow-box-shadow: 0 1px 10px lightslategrey;
 }
 
 body {
@@ -56,7 +57,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  box-shadow: 0 1px 10px lightslategrey;
+  box-shadow: var(--glow-box-shadow);
   margin: 30px;
 }
 
@@ -66,7 +67,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  box-shadow: 0 1px 10px lightslategrey;
+  box-shadow: var(--glow-box-shadow);
   margin: 20px 0;
   display: block;
 }
@@ -134,7 +135,7 @@ p {
   padding: 15px;
   text-align: center;
   border-radius: 7px 7px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--glow-box-shadow);
   border: 1px solid lightslategray;
   margin-left: 130px;
 }
@@ -153,6 +154,22 @@ div.intro-other {
   background-color: rgba(178, 150, 255, 0.405);
   margin-bottom: 50px;
   box-shadow: 0 0 10px 0 rgb(178, 150, 255);
+}
+
+footer {
+  margin: 50px 250px;
+}
+
+footer .contact-box {
+  background-color: rgba(178, 150, 255, 0.405);
+  padding: 30px 120px;
+  border-radius: 10px;
+  box-shadow: var(--glow-box-shadow);
+}
+
+footer .button {
+  margin-left: 100px;
+  margin-top: 10px;
 }
 
 a:hover.button {
