@@ -147,8 +147,8 @@ p {
 }
 
 div.intro {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   background-color: rgba(177, 242, 255, 0.405);
   margin-bottom: 50px;
   box-shadow: 0 0 10px 0 rgba(177, 242, 255);
