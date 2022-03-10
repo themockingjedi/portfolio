@@ -43,6 +43,7 @@ p {
 }
 
 img {
+  margin: auto;
   display: block;
   text-align: center;
 }
@@ -146,6 +147,10 @@ p {
   margin-left: 130px;
 }
 
+.codepen {
+  background: transparent;
+}
+
 div.intro {
   padding-top: 75px;
   padding-bottom: 75px;
@@ -166,7 +171,7 @@ footer {
   margin: 50px 250px;
 }
 
-footer .contact-box {
+.contact-box {
   background-color: rgba(178, 150, 255, 0.405);
   padding: 30px 120px;
   border-radius: 10px;
@@ -222,8 +227,26 @@ a:hover.button {
     text-align: center;
   }
 
+  img,
+  a {
+    display: flex;
+    justify-content: center;
+  }
+
   .blurb {
     padding: 10px;
+  }
+
+  .contact-box {
+    max-width: auto;
+  }
+
+  a.button {
+    margin-left: 0;
+  }
+
+  .down-spacer {
+    margin-bottom: 100px;
   }
 }
 
@@ -245,5 +268,13 @@ a:hover.button {
 
   .blurb {
     padding: 10px;
+  }
+
+  a.button {
+    margin-left: 0;
+  }
+
+  .down-spacer {
+    margin-bottom: 100px;
   }
 }
