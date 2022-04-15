@@ -144,7 +144,6 @@ p {
   border-radius: 7px 7px;
   box-shadow: var(--glow-box-shadow);
   border: 1px solid lightslategray;
-  margin-left: 130px;
 }
 
 .codepen {
@@ -173,13 +172,12 @@ footer {
 
 .contact-box {
   background-color: rgba(178, 150, 255, 0.405);
-  padding: 30px 120px;
+  padding: 30px 80px;
   border-radius: 10px;
   box-shadow: var(--glow-box-shadow);
 }
 
-footer .button {
-  margin-left: 100px;
+.button {
   margin-top: 10px;
 }
 
@@ -235,10 +233,6 @@ a:hover.button {
 
   .blurb {
     padding: 10px;
-  }
-
-  .contact-box {
-    max-width: auto;
   }
 
   a.button {
